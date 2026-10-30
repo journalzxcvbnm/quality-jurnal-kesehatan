@@ -25,7 +25,7 @@ if (copyButton) copyButton.addEventListener("click", async () => {
 });
 
 // Warn users if the PDF has not yet been added to the files folder.
-document.querySelectorAll('a[href="files/brain-gym-review.pdf"]').forEach(link => {
+document.querySelectorAll('a[href="brain-gym-review.pdf"]').forEach(link => {
   link.addEventListener("click", event => {
     // Let the browser handle the link normally. If the PDF is missing,
     // the browser will show its usual file-not-found page.
